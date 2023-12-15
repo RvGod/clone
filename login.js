@@ -18,7 +18,7 @@ function loginButton() {
 
     if (loggedIn) {
       alert('LOGIN SUCCESSFUL');
-      location.replace("http://127.0.0.1:5500/josh/index.html")
+      location.replace("http://127.0.0.1:5500/index.html")
     } else {
       alert('Enter the correct Username and Password');
     }
